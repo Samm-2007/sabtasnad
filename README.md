@@ -243,7 +243,9 @@ SabtAsnad.exe
 echo.
 echo ExitCode: %errorlevel%
 pause
-=======
+--------------------------
+
+
 SabtAsnad.exe > run.log 2>&1
 echo %errorlevel%
 type run.log
