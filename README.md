@@ -229,7 +229,7 @@ Base URL: `http://localhost:4000`
 - ثبت لاگ امنیتی و Audit کا
 
   
-
+```
 @echo off
 setlocal
 cd /d %~dp0
@@ -242,9 +242,11 @@ SabtAsnad.exe
 echo.
 echo ExitCode: %errorlevel%
 pause
+```
 --------------------------
 
-
+```
 SabtAsnad.exe > run.log 2>&1
 echo %errorlevel%
 type run.log
+```
